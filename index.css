@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.animate-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.animate-btn:hover {
+    background-color: #0056b3;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.box.move {
+    transform: translateY(100px);
+}
